@@ -60,7 +60,8 @@ const perguntas = [
             
         ]
     },
-    {
+];
+ {
         enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
         alternativas: [
             {
@@ -72,10 +73,22 @@ const perguntas = [
                 afirmacao:"afirmacao"
             }
             
+
+        ]
+    },{
+        enunciado: após terminar as atividades, voce decide jogar um pouco de pokemon, apos varias batalhas sua kirilia chega ao level 30, vc tem a opção de usar ou não uma dawn Stone,  ,
+        alternativas: [
+            {
+                texto: uso a dawn stone, e minha kirilia vira um gallade. ,
+                afirmacao:"afirmacao"
+            },
+            {
+                texto: nao uso a dawn stone e minha kirilia vira uma gardevoir. ,
+                afirmacao:"negação"
+            }
+            
             
         ]
-    },
-];
 
 let atual = 0; 
 let perguntaAtual;
